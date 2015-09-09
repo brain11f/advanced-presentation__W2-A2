@@ -63,9 +63,17 @@ Stackoverflow
 MDN
 -HTML element reference
 -<hgroup>
+-menu tag
+-<menuitem>
+-HTML forms guide
 
 W3Schools
 -HTML <nav> Tag
+-HTML <button> type Attribute
+-HTML Containers
+
+MrColes blog
+-How to use ampersands in HTML: to encode or not to encode?
 
 
 
