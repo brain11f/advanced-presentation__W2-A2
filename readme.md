@@ -54,7 +54,18 @@ __DO NOT__ fence yourself in with invisible constraints. Unless it is specifical
 
 In the last assignment we covered the concepts behind semantic and modular HTML. This project assignment is engineered to build on top of those principals and work in more advanced presentation skills, to include RWD. 
 
+SOURCES & COLLABORATORS
+-Authored by Sredna Kunowski & Brian 
 
+Stackoverflow
+-Use <figure> element for icons? html5
+
+MDN
+-HTML element reference
+-<hgroup>
+
+W3Schools
+-HTML <nav> Tag
 
 
 
