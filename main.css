@@ -11,21 +11,11 @@
 	fill: currentColor;
 }
 
-.dropdown-list {
-	position: absolute;
-	visibility: hidden;
-	-webkit-transiton: opacity 0.2s;
-	-moz-transition: opacity 0.2s;
-	-ms-transition: opacity 0.2s;
-	-o-transition: opacity 0.2s;
-	-transition: opacity 0.2s;
+.dropdown-list:hover {
+	visibility: visible;
 }
 
-.dropdown-list:active {
-	visibility: visible;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
+.dropdown-list {
+	z-index: 10;
+	visibility: hidden;
 }
