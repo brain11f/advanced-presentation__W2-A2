@@ -80,5 +80,8 @@ MrColes blog
 Icomoon.com
 -Got these icons from the site:facebook,twitter,dribble,linkedin,googleplus, circles left and right.
 
+CSS tricks
+-How to make a triangle in css,https://css-tricks.com/snippets/css/css-triangle/
+
 
 

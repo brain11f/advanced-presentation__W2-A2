@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+
+
+
+
+/*
 .team {
     display:flex;
     flex-direction: column;
@@ -7,7 +11,7 @@
     align-content: flex-start;
     align-items: flex-start;
 }
-		
+*/		
  /*
 .flex-items-default {
     width: 300px;
@@ -16,7 +20,8 @@
     flex-shrink: 0;
     flex-basis: 0;
 }
-*/		
+*/	
+/*	
  .team-header {
     width: 300px;
     height: 250px;
@@ -64,9 +69,7 @@
     flex-shrink: <property unused>
     flex-basis: <property unused>
 }
-
-	
-=======
+*/
 .menu-icon {
 	display: inline-block;
 	width: 3em;
@@ -127,4 +130,30 @@
 	-moz-backface-visibility:hidden; /* Firefox */
 	-ms-backface-visibility:hidden; /* Internet Explorer */
 }
->>>>>>> a32394a9c971159e0e02d33c0b94102d38d12887
+
+
+/*Services */
+.services-price {
+    background-color: #fd6632;
+}
+
+/*Portfolio*/
+
+/*About-Skills*/
+.about-skills {
+    background-color: #252629;
+}
+
+/*Contact*/
+.contact {
+    background-color: #fd6632;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid green;
+    margin: 0 auto;
+}
