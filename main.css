@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .team {
     display:flex;
     flex-direction: column;
@@ -65,3 +66,65 @@
 }
 
 	
+=======
+.menu-icon {
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	fill: currentColor;
+}
+
+.drop-down-menu {
+	display: inline-block;
+}
+.drop-down-menu label, .drop-down-menu ul li {
+	display: block;
+	width: 30em;
+	background: #d8d8d8;
+	padding: 15px 20px;
+}
+.drop-down-menu label:hover, .drop-down-menu ul li:hover {
+	background-color: rgba(29, 28, 33, 0.9);
+	color: white;
+	cursor: pointer;
+}
+.drop-down-menu input {
+	
+	display: none;
+}
+.drop-down-menu input ~ ul {
+	visibility: hidden;
+	opacity: 0;
+	z-index: 10;
+}
+.drop-down-menu input:checked + label {
+	background-color: rgba(29, 28, 33, 0.9);
+	color: white;
+}
+
+.drop-down-menu input:checked ~ ul {
+	visibility: visible;
+	opacity: 1;
+}
+
+.menu-list-ul {
+	position: absolute;
+}
+
+.menu-list {
+	margin: 0;
+	padding: 0;
+}
+
+.animate {
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;  
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden; /* Chrome and Safari */
+	-moz-backface-visibility:hidden; /* Firefox */
+	-ms-backface-visibility:hidden; /* Internet Explorer */
+}
+>>>>>>> a32394a9c971159e0e02d33c0b94102d38d12887
