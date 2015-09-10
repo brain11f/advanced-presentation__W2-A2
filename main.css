@@ -76,6 +76,7 @@
 }
 
 .drop-down-menu {
+	position: fixed;
 	display: inline-block;
 }
 
@@ -136,7 +137,7 @@
 /*Welcome page*/
 .welcome {
 	background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");
-	background-size:   cover;                      
+	background-size: cover;                      
 	background-repeat: no-repeat;
 }
 
@@ -167,33 +168,63 @@
 }
 
 .welcome-section h1 {
-	font-family: ;
 	font-size: 1em;
 	margin: 0;
 }
 
 /*Services */
 .services-price {
-    background-color: #fd6632;
+  background-color: #fd6632;
+}
+
+.services-list {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: center;
+}
+
+.services-list li {
+	padding: 1em;
+	width: 20em;
+}
+
+.circle-services-icon {
+	display: inline-block;
+	padding: 3em;
+	background-color: #ffffff;
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}
+
+.circle-services-icon img {
+
 }
 
 /*Portfolio*/
 
 /*About-Skills*/
 .about-skills {
-    background-color: #252629;
+  background-color: #252629;
 }
 
 /*Contact*/
 .contact {
-    background-color: #fd6632;
+  background-color: #fd6632;
 }
 
 .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-top: 60px solid green;
-    margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 60px solid green;
+	margin: 0 auto;
 }
