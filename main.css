@@ -5,39 +5,40 @@
 	fill: currentColor;
 }
 
-.drop-down-menu{
+.drop-down-menu {
 	display: inline-block;
 }
-.drop-down-menu label, .drop-down-menu ul li{
+.drop-down-menu label, .drop-down-menu ul li {
 	display: block;
-	width: 200px;
+	width: 30em;
 	background: #d8d8d8;
 	padding: 15px 20px;
 }
-.drop-down-menu label:hover, .drop-down-menu ul li:hover{
+.drop-down-menu label:hover, .drop-down-menu ul li:hover {
 	background-color: rgba(29, 28, 33, 0.9);
 	color: white;
 	cursor: pointer;
 }
-.drop-down-menu input{
+.drop-down-menu input {
+	
 	display: none;
 }
-.drop-down-menu input ~ ul{
+.drop-down-menu input ~ ul {
 	visibility: hidden;
 	opacity: 0;
 	z-index: 10;
 }
-.drop-down-menu input:checked + label{
+.drop-down-menu input:checked + label {
 	background-color: rgba(29, 28, 33, 0.9);
 	color: white;
 }
 
-.drop-down-menu input:checked ~ ul{
+.drop-down-menu input:checked ~ ul {
 	visibility: visible;
 	opacity: 1;
 }
 
-.menu-list-two {
+.menu-list-ul {
 	position: absolute;
 }
 
@@ -46,7 +47,7 @@
 	padding: 0;
 }
 
-.animate{
+.animate {
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
