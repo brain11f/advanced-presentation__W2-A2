@@ -75,5 +75,8 @@ W3Schools
 MrColes blog
 -How to use ampersands in HTML: to encode or not to encode?
 
+Icomoon.com
+-Got these icons from the site:facebook,twitter,dribble,linkedin,googleplus, circles left and right.
+
 
 
