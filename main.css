@@ -1,3 +1,75 @@
+
+
+
+
+/*
+.team {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+*/		
+ /*
+.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+*/	
+/*	
+ .team-header {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+	
+ .team-p {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+	
+ .team-name {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+	
+ .team-job {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+	
+ .team-pic {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+	
+ .team-social-media-icon {
+    width: 300px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+*/
 .menu-icon {
 	display: inline-block;
 	width: 3em;
@@ -57,4 +129,31 @@
 	-webkit-backface-visibility:hidden; /* Chrome and Safari */
 	-moz-backface-visibility:hidden; /* Firefox */
 	-ms-backface-visibility:hidden; /* Internet Explorer */
+}
+
+
+/*Services */
+.services-price {
+    background-color: #fd6632;
+}
+
+/*Portfolio*/
+
+/*About-Skills*/
+.about-skills {
+    background-color: #252629;
+}
+
+/*Contact*/
+.contact {
+    background-color: #fd6632;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid green;
+    margin: 0 auto;
 }
