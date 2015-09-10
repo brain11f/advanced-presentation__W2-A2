@@ -18,7 +18,7 @@
 }
 
 .drop-down-menu label:hover, .drop-down-menu ul li:hover {
-	background-color: rgba(29, 28, 33, 0.9);
+	background-color: #1d1c21;
 	color: white;
 	cursor: pointer;
 }
@@ -34,7 +34,7 @@
 }
 
 .drop-down-menu input:checked + label {
-	background-color: rgba(29, 28, 33, 0.9);
+	background-color: #1d1c21;
 	color: white;
 }
 
@@ -72,8 +72,10 @@
 }
 
 .welcome-section {
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 	display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -82,7 +84,9 @@
 	align-items: center;
 	text-align: center;
 }
+
 .circle-welcome-icon {
+	padding: .5em;
 	background-color: #fd6632;
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
@@ -97,6 +101,7 @@
 	font-family: ;
 	font-size: 1em;
 	margin: 0;
+}
 
 /*Services */
 .services-price {
