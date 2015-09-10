@@ -131,13 +131,16 @@
     margin-left: 12em;
 
 
+
+
     z-index: 50;
     
 }
 
 .welcome-arrow {
     margin-top: -.5em;
-    border-top: 60px solid green;
+    border-top: 60px solid #FFFFFF;
+
     /*background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");*/
 }
 
@@ -150,6 +153,7 @@
 .team-arrow { 
      margin-top: -2.5em;
     border-top: 60px solid #FFFFFF;
+     margin-left: 15em;
 } 
    
 .portfolio-carousel-arrow {
@@ -167,12 +171,15 @@
 .contact-arrow {
     margin-top: -3em;
     border-top: 60px solid #fd6632;
+     margin-left: 15em;
 }
 /*services & contacts are orange
 
 /*google maps*/
 .google-maps {
     z-index: 200;
+    position: relative;
+    
 }
 
 
