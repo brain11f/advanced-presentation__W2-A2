@@ -87,7 +87,7 @@
 }
 
 .drop-down-menu label:hover, .drop-down-menu ul li:hover {
-	background-color: rgba(29, 28, 33, 0.9);
+	background-color: #1d1c21;
 	color: white;
 	cursor: pointer;
 }
@@ -103,7 +103,7 @@
 }
 
 .drop-down-menu input:checked + label {
-	background-color: rgba(29, 28, 33, 0.9);
+	background-color: #1d1c21;
 	color: white;
 }
 
@@ -170,6 +170,7 @@
 	font-family: ;
 	font-size: 1em;
 	margin: 0;
+}
 
 /*Services */
 .services-price {
