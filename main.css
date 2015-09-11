@@ -466,6 +466,27 @@ font-family: Arial;
   float: right;
   margin-top: .5em;
   margin-bottom: 2em;
-  
+  }
+
+.google-maps-image {
+	max-width: 100%;
 }
 
+.bottom-page-footer {
+	margin-left: 15%;
+	margin-top: 5em;
+}
+
+.footer-nav {
+	margin-top: .5em;
+	margin-left: 1.75em;
+}
+
+.theme-by {
+	color: #252629;
+	opacity: .8;
+}
+
+.pierre-borodin {
+	color: #fd6632;
+}
