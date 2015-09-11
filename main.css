@@ -67,6 +67,7 @@
 
 .line {
     
+    margin-top: 2em;
     position: relative;
     font-size: 30px;
     z-index: 1;
@@ -250,20 +251,70 @@
 .team-name {
     font-size: 2em;
     margin-bottom: 0;
-
-
 }
 
 .team-social-media-icon {
     list-style-type: none;
-    float: left;
     margin: 0;
     padding: 0;
     padding-bottom: .75em;
+    margin-left: 8%;
+    display: flex;
+    position: relative;
+}
+
+.team-social-media-icon li {
+    display: inline;
+    float: left;
+
+
 }
 
 .team-facebook-icon, .team-twitter-icon, .team-dribble-icon, .team-linkedIn-icon, .team-googlePlus-icon {
 
-    display: inline;
-    padding-right: .5em;
+   padding-right: .25em;
+   padding-left: .25em;
+    width: 1.75em;
+    height: 1.75em;
+    margin-right: .35em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+
+}
+
+.team-facebook-icon {
+    background-color: #305fc6;
+}
+
+.team-twitter-icon {
+    background-color: #32bdff;
+}
+.team-dribble-icon {
+    background-color: #dd2667;
+}
+.team-linkedIn-icon {
+    background-color: #2ca1eb;
+}
+.team-googlePlus-icon {
+    background-color: #fabc00;
+}
+
+
+
+/*Clients*/
+.clients,  {
+    margin: 0 auto;
+}
+
+.right-button {
+margin-left: 60%;
+
+}
+
+.left-button {
+
+}
+
+.contact {
+    text-align: center;
 }
