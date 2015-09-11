@@ -84,5 +84,8 @@ Icomoon.com
 CSS tricks
 -How to make a triangle in css,https://css-tricks.com/snippets/css/css-triangle/
 
+-Contact form code from James Georde at http://www.sitepoint.com/style-web-forms-css/
+- html placeholders, Placeholder text in an input field with CSS only (no JavaScript) by david jones
+
 
 

@@ -34,7 +34,7 @@
 					</svg></div></figure>
 				<h1>Hi there! We`re Avengers, creative design agency<br>we build awesome mobile and websites</h1>
 			</section>
-			<div class=" arrow welcome-arrow"></div>
+				<div class=" arrow welcome-arrow"></div>
 		</article>
 		<article class="services-price">
 			<section class="services">
@@ -321,27 +321,32 @@
 					<header class="line contact-header">CONTACT</header>
 					<p class="contact-p">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
 					</p>
-					<form class="contact-form">
-  					<fieldset>
-    					<label class="contact-company">Company name</label></br>
-    					<label class="contact-email">Email</label></br>
-    					<label class="contact message">Message</label></br>
-    					<button class="contact-submit-button" type="submit">Submit Message</button>
-  					</fieldset>
-					</form>
-					<section class="google-maps-form">
-						<figure>
-							<img class="google-maps-icons" src="./assets/mobile-icon.png">
-							<figcaption class="google-maps-phoneNumber">+970 897 580 (7:00-20:00)</figcaption>
-						</figure>
-						<figure>
-							<img class="google-maps-icons" src="./assets/mail-icon.png">
-							<figcaption class="google-maps-emailAddress">info@company.com</figcaption>
-						</figure>	
-						<figure>
-							<img class="google-maps-icons" src="./assets/location-icon.png">
-							<figcaption class="google-maps-pinAddress">USA, San Francisco, 57010, Little Parry St. 826/31</figcaption>
-						</figure>
+				<form class="contact-form">
+					<label class="contact-company">
+				    	<input class="form-box" class="contact-company-box" type="text" name="companyName" placeholder="Company name"/></br>
+				  	</label>
+					<label class="contact-email">
+				    	<input class="form-box" class="contact-email-box" type="text" name="contactEmail" placeholder="Your@mail.com"/></br>
+				   	</label>
+					<label class="contact message">
+				    	<textarea class="contact-message-box" type="text" name="contactMessage" placeholder="Message..."></textarea></br><input class="contact-form-submit-button" type="button" value="Submit Message"/>
+				    </label>
+				</form>
+					<section class="google-maps-section">
+						<section class="google-maps-contact-info">
+							<figure class="google-maps-figure">
+								<img class="google-maps-icons" src="./assets/mobile-icon.png">
+								<figcaption class="google-maps-phoneNumber">+970 897 580 (7:00-20:00)</figcaption>
+							</figure>
+							<figure>
+								<img class="google-maps-icons" src="./assets/mail-icon.png">
+								<figcaption class="google-maps-emailAddress">info@company.com</figcaption>
+							</figure>	
+							<figure>
+								<img class="google-maps-icons" src="./assets/location-icon.png">
+								<figcaption class="google-maps-pinAddress">USA, San Francisco, 57010, Little Parry St. 826/31</figcaption>
+							</figure>
+						</section>
 					<section class="google-maps">
 						<figure>
 							<img class="google-maps-image" src="./assets/google-maps.jpg">
@@ -351,21 +356,21 @@
 				</section>
 				<div class="arrow contact-arrow"></div>	
 			</article>	
-				<section>
+				<section class="footer">
 					<footer class="bottom-page-footer">
 						<span class="footer theme-by nowrap" >Theme by</span>
 						<span class="footer pierre-borodin nowrap">Pierre Borodin</span>
 						<span class="footer copyright nowrap">&copy;copyright 2012</span>
-						<nav>
-							<ul class="team-social-media-icon footer-social-media-icons">
-								<li class="team-facebook-icon"><img src="./assets/facebook-icon.png"></li>
-								<li class="team-twitter-icon"><img src="./assets/twitter-icon.png"></li>
-								<li class="team-dribble-icon"><img src="./assets/dribble-icon.png"></li>
-								<li class="team-linkedIn-icon"><img src="./assets/linkedIn-icon.png"></li>
-								<li class="team-googlePlus-icon"><img src="./assets/googlePlus-icon.png"></li>	
-							</ul>
-						</nav>		
-					</footer>	
-				</section>
+						<nav class="footer-nav">
+							<ul class="team-social-media-icon">
+								<li><img class="team-facebook-icon" src="./assets/facebook-icon.png"></li>
+								<li><img class="team-twitter-icon" src="./assets/twitter-icon.png"></li>
+								<li><img class="team-dribble-icon"src="./assets/dribble-icon.png"></li>
+								<li><img class="team-linkedIn-icon"src="./assets/linkedIn-icon.png"></li>
+							<li><img class="team-googlePlus-icon"src="./assets/googlePlus-icon.png"></li>	
+						</ul>
+					</nav>		
+				</footer>	
+			</section>
 	</body>
 </html>
