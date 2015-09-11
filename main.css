@@ -65,6 +65,29 @@
 	-ms-backface-visibility:hidden; /* Internet Explorer */
 }
 
+.line {
+    
+    margin-top: 2em;
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+.line:before, .line:after {
+    position: absolute;
+    top: 51%;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: red;
+}
+.line:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+
 /*Welcome page*/
 .welcome {
 	background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");
@@ -159,7 +182,7 @@
     border-bottom: 100px solid transparent;
     margin: 0 auto;
     position: absolute;
-    margin-left: 12em;
+    margin-left: 50%;
 
 
 
@@ -213,74 +236,85 @@
     
 }
 
-
-
-/*Header drop down menu*/
-/*
+/*team*/
 .team {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
-}
-*/      
- /*
-.flex-items-default {
-    width: 300px;
-    height: 250px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 0;
-}
-*/  
-/*  
- .team-header {
-    width: 300px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
-}
+    margin: 0 auto;
+     text-align: center;
     
- .team-p {
-    width: 300px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
 }
-    
- .team-name {
-    width: 300px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+.team-p {
+    font-size: 1em;
+    width: 20em;
+    display: flex;
 }
-    
- .team-job {
-    width: 300px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+
+.team-name {
+    font-size: 2em;
+    margin-bottom: 0;
 }
-    
- .team-pic {
-    width: 300px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+
+.team-social-media-icon {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: .75em;
+    margin-left: 8%;
+    display: flex;
+    position: relative;
 }
-    
- .team-social-media-icon {
-    width: 300px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+
+.team-social-media-icon li {
+    display: inline;
+    float: left;
+
+
 }
-*/
+
+.team-facebook-icon, .team-twitter-icon, .team-dribble-icon, .team-linkedIn-icon, .team-googlePlus-icon {
+
+   padding-right: .25em;
+   padding-left: .25em;
+    width: 1.75em;
+    height: 1.75em;
+    margin-right: .35em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+
+}
+
+.team-facebook-icon {
+    background-color: #305fc6;
+}
+
+.team-twitter-icon {
+    background-color: #32bdff;
+}
+.team-dribble-icon {
+    background-color: #dd2667;
+}
+.team-linkedIn-icon {
+    background-color: #2ca1eb;
+}
+.team-googlePlus-icon {
+    background-color: #fabc00;
+}
+
+
+
+/*Clients*/
+.clients,  {
+    margin: 0 auto;
+}
+
+.right-button {
+margin-left: 60%;
+
+}
+
+.left-button {
+
+}
+
+.contact {
+    text-align: center;
+}

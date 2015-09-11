@@ -60,6 +60,7 @@ SOURCES & COLLABORATORS
 Stackoverflow
 -Use <figure> element for icons? html5
 -Keeping a string of text together on one line by Jsous
+-CSS Title with Horizontal Line on either side by Romain Pellerin
 
 MDN
 -HTML element reference
