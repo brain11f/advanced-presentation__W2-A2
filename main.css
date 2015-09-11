@@ -94,6 +94,7 @@
 	background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");
 	background-size: cover;                      
 	background-repeat: no-repeat;
+	margin-bottom: 
 }
 
 .welcome-section {
@@ -323,36 +324,29 @@ align-items: flex-start;
   background-color: #252629;
 }
 
-/*Contact*/
-.contact {
-  background-color: #fd6632;
-}
 
+/*
 .arrow {
     width: 0;
     height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-bottom: 100px solid transparent;
+    border-left: 5em solid transparent;
+    border-right: 5em solid transparent;
     margin: 0 auto;
     position: absolute;
-    margin-left: 50%;
-
-
-
-
+    margin-left: 30%;
     z-index: 50;
-    
+    margin-bottom: 5em;
+    border-top: 60px solid green;  
 }
-
+*/
+/*
 .welcome-arrow {
     margin-top: -.5em;
     border-top: 60px solid #FFFFFF;
 
-    /*background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");*/
 }
 
-/*orange*/
+
 .services-price-arrow {
     margin-top: -2.5em;
     border-top: 60px solid #fd6632;
@@ -371,16 +365,17 @@ align-items: flex-start;
 
 .about-skills-arrow {
     margin-top: -2em;
-    /*black color*/
+    
     border-top: 60px solid #252629;
 } 
 
-/*orange*/
+
 .contact-arrow {
     margin-top: -3em;
     border-top: 60px solid #fd6632;
      margin-left: 15em;
 }
+
 /*services & contacts are orange
 
 /*google maps*/
@@ -469,6 +464,76 @@ margin-left: 60%;
 
 }
 
+/*Contact*/
+.contact {
+  background-color: #fd6632;
+
+}
+
 .contact {
     text-align: center;
+}
+
+.contact-form {
+	float: left;
+}
+.form-box {
+width:15em;
+display:block;
+height: 2em;
+background-color: #252629;
+opacity: .8;  
+}
+.contact-message-box {
+width:25em;
+height:10em;
+display: inline;
+background-color: #252629;
+opacity: .8;
+font-family: Arial;  
+}
+
+.contact-form-submit-button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color: #fd6632;
+	font-family:Arial;
+	font-size:14px;
+	padding:6px 24px;
+	text-decoration:none;
+  float: right;
+  margin-top: .5em;
+  margin-bottom: 2em;
+  }
+
+.google-maps-image {
+	max-width: 100%;
+}
+
+.bottom-page-footer {
+	margin-left: 15%;
+	margin-top: 5em;
+}
+
+.footer-nav {
+	margin-top: .5em;
+	margin-left: 1.75em;
+}
+
+.theme-by {
+	color: #252629;
+	opacity: .8;
+}
+
+.pierre-borodin {
+	color: #fd6632;
 }
