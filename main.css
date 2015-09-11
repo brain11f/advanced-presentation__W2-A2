@@ -127,11 +127,53 @@
 }
 
 /*Services */
+.services {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	align-items: flex-start;
+}
+
+.services > h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 50em;
+	height: 3em;
+}
+
+.services-p-one {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 70em;
+	height: 10em;
+}
+
+.services-p-two {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 20em;
+	height: 10em;
+}
+
+.services-p-three {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 20em;
+	height: 10em;
+}
+
 .services-price {
   background-color: #fd6632;
 }
 
 .services-list {
+	text-align: center;
 	padding: 0;
 	border: 0;
 	margin: 0;
@@ -158,11 +200,65 @@
 	border-radius: 50em;
 }
 
-.circle-services-icon img {
-
+/*pricing*/
+.price {
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: flex-start;
+align-items: flex-start;
 }
 
+.price > h1 {
+	width: 900px;
+	text-align: center;
+}
+
+.price-ul {
+	width: 80em;
+	text-align: center;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: center;
+}
+
+.price-ul > li {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+	
 /*Portfolio*/
+.carousel {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.carousel-nav-bar > ul {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	list-style: circle;
+	font-size: 2em;
+}
+
+.carousel-selected {
+	color: #fd6632;
+}
 
 /*About-Skills*/
 .about-skills {
