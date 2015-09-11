@@ -1,4 +1,4 @@
-
+/*menu navigation*/
 .menu-icon {
 	display: inline-block;
 	width: 3em;
@@ -65,6 +65,7 @@
 	-ms-backface-visibility:hidden; /* Internet Explorer */
 }
 
+/*lines next to titles*/
 .line {
     
     margin-top: 2em;
