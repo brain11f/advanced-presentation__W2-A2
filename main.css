@@ -93,6 +93,7 @@
 	background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");
 	background-size: cover;                      
 	background-repeat: no-repeat;
+	margin-bottom: 
 }
 
 .welcome-section {
@@ -266,26 +267,28 @@ align-items: flex-start;
 }
 
 
-
+/*
 .arrow {
     width: 0;
     height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-bottom: 100px solid transparent;
+    border-left: 5em solid transparent;
+    border-right: 5em solid transparent;
     margin: 0 auto;
     position: absolute;
-    margin-left: 50%;
-    z-index: 50;  
+    margin-left: 30%;
+    z-index: 50;
+    margin-bottom: 5em;
+    border-top: 60px solid green;  
 }
-
+*/
+/*
 .welcome-arrow {
     margin-top: -.5em;
     border-top: 60px solid #FFFFFF;
-    /*background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");*/
+
 }
 
-/*orange*/
+
 .services-price-arrow {
     margin-top: -2.5em;
     border-top: 60px solid #fd6632;
@@ -304,16 +307,17 @@ align-items: flex-start;
 
 .about-skills-arrow {
     margin-top: -2em;
-    /*black color*/
+    
     border-top: 60px solid #252629;
 } 
 
-/*orange*/
+
 .contact-arrow {
     margin-top: -3em;
     border-top: 60px solid #fd6632;
      margin-left: 15em;
 }
+
 /*services & contacts are orange
 
 /*google maps*/
@@ -411,21 +415,6 @@ margin-left: 60%;
 .contact {
     text-align: center;
 }
-/*
-.contact-form    {
-margin:auto;
-position:relative;
-width:2em;
-height:2em;
-font-size: 1em;
-line-height: .25em; 
-text-decoration: none;
-padding:.5em;
-position: absolute;
-display: block;
-float: left;
-}
-*/
 
 .contact-form {
 	float: left;
