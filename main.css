@@ -1,4 +1,4 @@
-
+/*menu navigation*/
 .menu-icon {
 	display: inline-block;
 	width: 3em;
@@ -65,6 +65,7 @@
 	-ms-backface-visibility:hidden; /* Internet Explorer */
 }
 
+/*lines next to titles*/
 .line {
     
     margin-top: 2em;
@@ -246,6 +247,10 @@ align-items: flex-start;
 	align-items: center;
 }
 
+.carousel img {
+	height: 17.8em;
+}
+
 .carousel-nav-bar > ul {
 	display:flex;
 	flex-direction: row;
@@ -259,6 +264,59 @@ align-items: flex-start;
 
 .carousel-selected {
 	color: #fd6632;
+}
+
+.portfolio nav {
+	text-align: center;
+}
+
+.portfolio-nav-ul {
+	margin: 1em;
+	padding: 0;
+}
+
+.portfolio-nav-ul > li {
+	display: inline;
+	padding: 1em;
+}
+
+@media (min-width: 1000px) {
+	.portfolio-article {
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+}
+
+.portfolio-article figure {
+	height: 192px;
+	background-color: black;
+}
+
+.portfolio-article img:hover {
+	opacity: .5;
+	-moz-transition: all .6s;
+	-webkit-transition: all .6s;
+	transition: all .6s;
+}
+
+.portfolio-article {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: center;
+}
+
+.portfolio-article article {
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.portfolio-article img {
+	height: 12em;
 }
 
 /*About-Skills*/
