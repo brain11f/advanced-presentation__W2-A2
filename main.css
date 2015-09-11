@@ -265,10 +265,7 @@ align-items: flex-start;
   background-color: #252629;
 }
 
-/*Contact*/
-.contact {
-  background-color: #fd6632;
-}
+
 
 .arrow {
     width: 0;
@@ -405,57 +402,70 @@ margin-left: 60%;
 
 }
 
+/*Contact*/
+.contact {
+  background-color: #fd6632;
+
+}
+
 .contact {
     text-align: center;
 }
+/*
 .contact-form    {
 margin:auto;
 position:relative;
-width:550px;
-height:450px;
-font-size: 14px;
-line-height: 24px; 
+width:2em;
+height:2em;
+font-size: 1em;
+line-height: .25em; 
 text-decoration: none;
-padding:10px;
+padding:.5em;
+position: absolute;
+display: block;
+float: left;
 }
+*/
 
+.contact-form {
+	float: left;
+}
 .form-box {
-width:375px;
+width:15em;
 display:block;
-border: 1px solid #999;
-height: 25px;
+height: 2em;
 background-color: #252629;
-opacity: .8;
-z-index: 600:  
+opacity: .8;  
 }
 .contact-message-box {
-width:375px;
-height:150px;
-display:block;
+width:25em;
+height:10em;
+display: inline;
 background-color: #252629;
 opacity: .8;
-z-index: 600;
 font-family: Arial;  
 }
 
 .contact-form-submit-button {
-width:120px;
-position:absolute;
-left: 25%;
-color: #fd6632;  
-background:#09C;
-background-color: #FFFFFF;
-opacity: .8;  
-height:30px;
-display: block;  
-
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color: #fd6632;
+	font-family:Arial;
+	font-size:14px;
+	padding:6px 24px;
+	text-decoration:none;
+  float: right;
+  margin-top: .5em;
+  margin-bottom: 2em;
   
 }
-contact-form-submit-button:hover {
-background:#fff;
-color:#09C;
-}
 
-.contact-message-box:focus, contact-form-submit-button:focus {
-border: 1px solid #09C;
-}
