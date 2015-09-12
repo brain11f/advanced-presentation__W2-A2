@@ -1,0 +1,22 @@
+{
+  "name": "w2a2mobilesite",
+  "version": "1.0.0",
+  "description": "w2a2 project advanced css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brain11f/advanced-presentation__W2-A2.git"
+  },
+  "author": "Brian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brain11f/advanced-presentation__W2-A2/issues"
+  },
+  "homepage": "https://github.com/brain11f/advanced-presentation__W2-A2#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

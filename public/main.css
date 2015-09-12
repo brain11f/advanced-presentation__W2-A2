@@ -125,7 +125,7 @@
 
 /*Welcome page*/
 .welcome {
-	background-image: url("/advanced-presentation__W2-A2/assets/header-background-image.jpg");
+	background-image: url("./assets/header-background-image.jpg");
 	background-size: cover;                      
 	background-repeat: no-repeat;
 	padding-top: 6em;
@@ -456,7 +456,6 @@ progress[aria-valuenow]:before  {
 	background: #fd6632;
 }
 
-/*services & contacts are orange
 /*google maps*/
 .google-maps {
     z-index: 200;
