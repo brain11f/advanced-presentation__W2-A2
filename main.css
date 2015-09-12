@@ -98,13 +98,24 @@
     overflow: hidden;
     text-align: center;
 }
+.white-line:before, .white-line:after {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.black-line:before, .black-line:after {
+	background-color: black;
+	color: black;
+}
+
+
+
 .line:before, .line:after {
     position: absolute;
     top: 51%;
     width: 50%;
     height: 1px;
     content: '\a0';
-    background-color: red;
 }
 .line:before {
     margin-left: -50%;
@@ -544,6 +555,7 @@ margin-left: 60%;
 .left-button {
 }
 
+/*contact*/
 .contact {
 	  background-color: #fd6632;
 	}
@@ -629,24 +641,48 @@ margin-left: 60%;
 .google-maps-contact-info {
 
 	float: right;
-	margin-right: 20em;
+	margin-right: 15em;
+	background-color:  #252629;
+	opacity: .8;
+
+
 
 	
 }
-.google-maps-icons {
-
-}
 
  .google-maps-phoneNumber {
+ 	margin-right: 2em;
+
+}
+
+.google-maps-phoneNumber, .google-maps-emailAddress, .google-maps-pinAddress  {
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.google-maps-icons{
+    text-align:center;
+    color: #FFFFFF;
+}
+
+.google-maps-image {
+	margin-left: 45em;
+	max-width: 50%;
+	bottom: 20em;
+	position: relative;
+
+}
+.google-maps-figure {
+	width: 400px;
+}
+
+.google-maps-section {
 
 }
 
 
 
-
 }
-
-
 
 
 
