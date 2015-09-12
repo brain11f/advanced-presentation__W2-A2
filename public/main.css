@@ -456,58 +456,6 @@ progress[aria-valuenow]:before  {
 	background: #fd6632;
 }
 
-
-/*
-.arrow {
-    width: 0;
-    height: 0;
-    border-left: 5em solid transparent;
-    border-right: 5em solid transparent;
-    margin: 0 auto;
-    position: absolute;
-    margin-left: 30%;
-    z-index: 50;
-    margin-bottom: 5em;
-    border-top: 60px solid green;  
-}
-*/
-/*
-.welcome-arrow {
-    margin-top: -.5em;
-    border-top: 60px solid #FFFFFF;
-
-}
-
-
-.services-price-arrow {
-    margin-top: -2.5em;
-    border-top: 60px solid #fd6632;
-}
-
-.team-arrow { 
-     margin-top: -2.5em;
-    border-top: 60px solid #FFFFFF;
-     margin-left: 15em;
-} 
-   
-.portfolio-carousel-arrow {
-    margin-top: -1.25em;
-    border-top: 60px solid #FFFFFF;
-}
-
-.about-skills-arrow {
-    margin-top: -2em;
-    
-    border-top: 60px solid #252629;
-} 
-
-
-.contact-arrow {
-    margin-top: -3em;
-    border-top: 60px solid #fd6632;
-     margin-left: 15em;
-}
-
 /*services & contacts are orange
 /*google maps*/
 .google-maps {
@@ -646,11 +594,6 @@ margin-left: 60%;
 
 @media (min-width: 700px) {
 /*Contact desktop friendly*/
-
-.contact-header {
-
-
-}
 
 .contact-p {
 	text-align: center;
