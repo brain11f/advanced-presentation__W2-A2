@@ -34,23 +34,3 @@
 	background-color: $white;
 	@include icon-border-radius(50em);
 }
-//team section 
-%team-social-media-spacing {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	padding-bottom: .75em;
-	margin-left: 8%;
-	display: flex;
-	position: relative;
-}
-
-%team-icon-spacing {
-	padding-right: .25em;
-	padding-left: .25em;
-	width: 1.75em;
-	height: 1.75em;
-	margin-right: .35em;
-	margin-bottom: .5em;
-	margin-top: .5em;
-}
