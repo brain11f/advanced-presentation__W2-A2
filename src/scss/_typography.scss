@@ -4,11 +4,22 @@ $primary-regular: #{Arial};
 	font-family: $primary-regular bold;
 }
 
+//sizes
+
+$one-em: 1em;
+$two-em: 2em;
+$three-em: 3em;
+
 //font size
 $heading-1: 2em;
 $heading-2: 1em;
 $button-font-size: .87em;
 $bullets-size: 2em;
+
+//font weight
+$light: 100;
+$regular:400;
+$bold: 700;
 
 //colors
 $light-gray: #d8d8d8;
@@ -24,3 +35,4 @@ $light-blue: #32bdff;
 $dark-pink: #dd2667;
 $medium-blue: #2ca1eb;
 $old-yellow: #fabc00;
+
