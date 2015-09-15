@@ -1,12 +1,12 @@
 /*menu navigation*/
 
 @media (max-width: 700px) {
-	.menu-icon {
+	/*.menu-icon {
 		display: inline-block;
 		width: 2.5em;
 		height: 2.5em;
 		fill: currentColor;
-	}
+	}*/
 	.drop-down-menu {
 		position: fixed;
 		display: inline-block;
@@ -221,7 +221,7 @@
 		width: 30%;
 	}
 }
-
+/*
 .circle-services-icon {
 	display: inline-block;
 	padding: 3em;
@@ -229,7 +229,7 @@
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
-}
+}*/
 /*pricing*/
 
 .price {
@@ -368,8 +368,9 @@
 .portfolio-article img {
 	height: 12em;
 }
-/*About-Skills*/
 
+/*About-Skills*/
+/*
 .about-skills {
 	background-color: #252629;
 	color: white;
@@ -430,7 +431,7 @@ progress::-webkit-progress-value {
 
 progress[aria-valuenow]:before {
 	background: #fd6632;
-}
+}*/
 /*google maps*/
 /*
 .google-maps {
@@ -484,6 +485,7 @@ progress[aria-valuenow]:before {
 	width: 17em;
 	margin: 1em;
 }
+/*
 .team-social-media-icon {
 	list-style-type: none;
 	margin: 0;
@@ -524,7 +526,7 @@ progress[aria-valuenow]:before {
 }
 .team-googlePlus-icon {
 	background-color: #fabc00;
-}
+}*/
 /*Clients*/
 
 .clients-p {
@@ -533,7 +535,7 @@ progress[aria-valuenow]:before {
 .right-button {
 	margin-left: 60%;
 }
-.left-button {}
+
 /*contact*/
 
 .contact {
@@ -632,11 +634,13 @@ progress[aria-valuenow]:before {
 .contact-form {
 	padding: 1em;
 }
+/*
 .google-maps-icons {
 	color: #FFFFFF;
 	width: 7%;
 	display: flex;
 }
+*/
 .google-maps-image {
 	max-width: 100%;
 }

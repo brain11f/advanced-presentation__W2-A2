@@ -1,14 +1,8 @@
 //styling fonts goes here
 $primary-regular: #{Arial};
-@mixin primary-bold {
+%primary-bold {
 	font-family: $primary-regular bold;
 }
-
-//sizes
-
-$one-em: 1em;
-$two-em: 2em;
-$three-em: 3em;
 
 //font size
 $heading-1: 2em;
