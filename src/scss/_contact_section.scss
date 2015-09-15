@@ -1,0 +1,81 @@
+
+
+//contact
+
+.contact {
+	background-color: $orange;
+	padding-top: 1%;
+}
+
+.contact-p {
+	color: $white;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: center;
+}
+.contact-p {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 3em;
+	font-size: 1.3em;
+	line-height: 1.75em;
+	margin-bottom: 6em;
+	width: 60em;
+}
+.contact-form {
+	padding: 1em;
+}
+.form-box {
+	width: 28em;
+	display: block;
+	height: 3em;
+	background-color: #252629;
+	opacity: .8;
+}
+.contact-message-box {
+	width: 28em;
+	height: 15em;
+	display: inline;
+	background-color: #252629;
+	opacity: .8;
+	font-family: Arial;
+}
+
+.google-maps-figure {
+	background-color: #252629;
+	opacity: .8;
+	position: absolute;
+	z-index: 3;
+	width: 23.8em;
+	height: 9em;
+	margin-top: 0;
+}
+.google-maps-phoneNumber {
+	margin-right: 2em;
+}
+.google-maps-phoneNumber,
+.google-maps-emailAddress,
+.google-maps-pinAddress {
+	color: #FFFFFF;
+}
+
+.google-maps-image {
+	max-width: 100%;
+}
+.google-maps-section {
+	width: 30em;
+	padding-bottom: 6em;
+}
+
+//google maps section
+.google-maps-icons {
+	color: $white;
+	width: 7%;
+	display: flex;
+}

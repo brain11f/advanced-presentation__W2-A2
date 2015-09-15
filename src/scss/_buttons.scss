@@ -13,16 +13,7 @@
 	text-decoration: none;
 	padding: 6px 24px;
 	}
-.contact-form-submit-button {
-	@extend %button;
-	background-color: $white;
-	color: $orange;
-	border: 1px solid #dcdcdc;
-	margin-top: .5em;
-	margin-bottom: 2em;
-	margin-left: 14em;	
-}
-
+//pricing table button
 .price-li {
 	button {
 		@extend %button;
@@ -31,4 +22,18 @@
 		border: 1px solid #be4c25;
 		margin: 1%;	
 	}
+}
+//client button
+.right-button {
+	margin-left: 60%;
+}
+//contact form button
+.contact-form-submit-button {
+	@extend %button;
+	background-color: $white;
+	color: $orange;
+	border: 1px solid #dcdcdc;
+	margin-top: .5em;
+	margin-bottom: 2em;
+	margin-left: 14em;	
 } 
