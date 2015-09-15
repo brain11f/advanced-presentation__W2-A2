@@ -1,13 +1,56 @@
-/*icons go here*/
+//icons go here//
 
-.circle-welcome-icon {
-	margin: $one-em;
-	padding: $one-em;
-	background-color: #fd6632;
-	-webkit-border-radius: 50em;
-	-moz-border-radius: 50em;
-	border-radius: 50em;
+@mixin icon-border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
 }
+
+//menu navigation
+@media (max-width: 700px) {
+	.menu-icon {
+		display: inline-block;
+		width: 2.5em;
+		height: 2.5em;
+		fill: currentColor;
+	}
+}
+
+//welcome section
 .welcome-icon {
 	margin: 0;
+}
+
+.circle-welcome-icon {
+	margin: 1em;
+	padding: 1em;
+	background-color: $orange;
+	@include icon-border-radius(50em);
+}
+//services section
+.circle-services-icon {
+	display: inline-block;
+	padding: 3em;
+	background-color: $white;
+	@include icon-border-radius(50em);
+}
+//team section 
+%team-social-media-spacing {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: .75em;
+	margin-left: 8%;
+	display: flex;
+	position: relative;
+}
+
+%team-icon-spacing {
+	padding-right: .25em;
+	padding-left: .25em;
+	width: 1.75em;
+	height: 1.75em;
+	margin-right: .35em;
+	margin-bottom: .5em;
+	margin-top: .5em;
 }
