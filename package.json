@@ -18,5 +18,9 @@
   "homepage": "https://github.com/brain11f/advanced-presentation__W2-A2#readme",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
   }
 }

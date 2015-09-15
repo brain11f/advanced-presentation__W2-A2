@@ -1,0 +1,26 @@
+//styling fonts goes here
+$primary-regular: #{Arial};
+@mixin primary-bold {
+	font-family: $primary-regular bold;
+}
+
+//font size
+$heading-1: 2em;
+$heading-2: 1em;
+$button-font-size: .87em;
+$bullets-size: 2em;
+
+//colors
+$light-gray: #d8d8d8;
+$white: #ffffff;
+$dark-gray: #1d1c21;
+$black: #000000;
+$orange: #fd6632;
+$brown: #7e3319;
+
+//icon colors
+$dark-blue: #305fc6;
+$light-blue: #32bdff;
+$dark-pink: #dd2667;
+$medium-blue: #2ca1eb;
+$old-yellow: #fabc00;

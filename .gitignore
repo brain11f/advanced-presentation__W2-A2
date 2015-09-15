@@ -1,4 +1,5 @@
-/node_modules
-npm-debug.log
+.sass-cache
+node_modules
+public/css
 .DS_Store
-/*.env
+*.log
