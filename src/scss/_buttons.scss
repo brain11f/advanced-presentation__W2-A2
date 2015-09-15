@@ -15,7 +15,7 @@
 
 .contact-form-submit-button {
 	@extend %button;
-	background-color: #ffffff;
+	background-color: $white;
 	color: $orange;
 	border: 1px solid #dcdcdc;
 	margin-top: .5em;
@@ -26,7 +26,7 @@
 .price-li {
 	button {
 		@extend %button;
-		background-color: #fd6632;
+		background-color: $orange;
 		color: $white;
 		border: 1px solid #be4c25;
 		margin: 1%;	
