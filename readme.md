@@ -87,5 +87,9 @@ CSS tricks
 -Contact form code from James Georde at http://www.sitepoint.com/style-web-forms-css/
 - html placeholders, Placeholder text in an input field with CSS only (no JavaScript) by david jones
 
+-https://learn.jquery.com/using-jquery-core/document-ready/
+-https://learn.jquery.com/about-jquery/how-jquery-works/
+-http://stackoverflow.com/questions/19980659/css-short-border-line
+-http://stackoverflow.com/questions/6669846/css-input-field-text-color-of-inputted-text
 
 
