@@ -23,10 +23,25 @@ $black: #000000;
 $orange: #fd6632;
 $brown: #7e3319;
 
+
+//background-colors
+
+
 //icon colors
 $dark-blue: #305fc6;
 $light-blue: #32bdff;
 $dark-pink: #dd2667;
 $medium-blue: #2ca1eb;
 $old-yellow: #fabc00;
+
+//opacity
+$high-opacity: .8;
+
+//contact
+$contact-color: $white;
+%contact-setColor {
+	color: $contact-color;
+} 
+$contact-bkColor: $dark-gray;
+$contact-opacity: $high-opacity;
 

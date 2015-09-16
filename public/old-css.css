@@ -38,7 +38,6 @@
 	.drop-down-menu input:checked + label {
 		color: white;
 	}
-*/
 /*
 	.drop-down-menu input:not(:checked) ~ ul {
 		visibility: visible;
@@ -126,7 +125,7 @@
 	background-repeat: no-repeat;
 	padding-top: 6em;
 }
-/*
+
 .welcome-section {
 	padding-top: 3.5em;
 	padding-bottom: 3.5em;
@@ -138,7 +137,7 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	*/
+	
 	/*
 .circle-welcome-icon {
 	margin: 1em;
@@ -417,21 +416,21 @@ progress[value] {
 }
 /* Foreground Colors   */
 /* IE10 */
-
+/*
 progress {
 	color: #fd6632;
 }
-/* Firefox */
+
 
 progress::-moz-progress-bar {
 	background: #fd6632;
 }
-/* Chrome */
+
 
 progress::-webkit-progress-value {
 	background: #fd6632;
 }
-/* Polyfill */
+
 
 progress[aria-valuenow]:before {
 	background: #fd6632;
@@ -450,6 +449,7 @@ progress[aria-valuenow]:before {
 	text-align: center;
 }
 */
+/*
 .team-section {
 	display: flex;
 	flex-direction: row;
@@ -489,6 +489,7 @@ progress[aria-valuenow]:before {
 	width: 17em;
 	margin: 1em;
 }
+*/
 /*
 .team-social-media-icon {
 	list-style-type: none;
@@ -532,7 +533,7 @@ progress[aria-valuenow]:before {
 	background-color: #fabc00;
 }*/
 /*Clients*/
-
+/*
 .clients-p {
 	text-align: center;
 }
@@ -540,23 +541,23 @@ progress[aria-valuenow]:before {
 	margin-left: 60%;
 }
 
-/*contact*/
+
 
 .contact {
 	background-color: #fd6632;
 	padding-top: 1%;
 }
-/*
+
 .contact-header {
 	color: #FFFFFF;
 	font-weight: 700;
 	margin-top: 5%;
 	width: 80%;
 }
-*/
+
 .contact-p {
 	color: #FFFFFF;
-}
+}*/
 /*
 .contact-form-submit-button {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
@@ -579,6 +580,7 @@ progress[aria-valuenow]:before {
 	margin-bottom: 2em;
 }
 */
+/*
 .contact {
 	display: flex;
 	flex-direction: row;
@@ -611,6 +613,7 @@ progress[aria-valuenow]:before {
 	opacity: .8;
 	font-family: Arial;
 }
+*/
 /*
 .contact-form-submit-button {
 	margin-left: 14em;
@@ -618,6 +621,7 @@ progress[aria-valuenow]:before {
 	margin-bottom: 2em;
 }
 */
+/*
 .google-maps-figure {
 	background-color: #252629;
 	opacity: .8;
@@ -638,17 +642,17 @@ progress[aria-valuenow]:before {
 .contact-form {
 	padding: 1em;
 }
-/*
+
 .google-maps-icons {
 	color: #FFFFFF;
 	width: 7%;
 	display: flex;
 }
-*/
+
 .google-maps-image {
 	max-width: 100%;
 }
 .google-maps-section {
 	width: 30em;
 	padding-bottom: 6em;
-}
+}*/
