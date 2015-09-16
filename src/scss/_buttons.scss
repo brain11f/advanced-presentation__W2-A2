@@ -33,9 +33,13 @@
 .price-li {
 	button {
 		@extend %button;
-		background-color: $orange;
+		width: 12.7em;
+		background: $orange;
 		color: $white;
-		border: 1px solid #be4c25;
+		border-top: 1em solid $dark-orange;
+		border-bottom: 1em solid $dark-orange;
+		border-left: 2em solid $dark-orange;
+		border-right: 2em solid $dark-orange;
 		margin: 1%;	
 	}
 }
