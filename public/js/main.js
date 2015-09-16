@@ -16,7 +16,6 @@ $(function() {
 		alert("Thanks for your submission!");
 		$( '.contact-form' ).each(function(){
     	this.reset();
-});
+		});
 	});
-
 });
