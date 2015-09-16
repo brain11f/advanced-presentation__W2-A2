@@ -120,5 +120,9 @@ Also, this project MUST BE RESPONSIVE! If you didn't finish that last week, it m
 
 Welcome to week 3!
 
+-https://learn.jquery.com/using-jquery-core/document-ready/
+-https://learn.jquery.com/about-jquery/how-jquery-works/
+-http://stackoverflow.com/questions/19980659/css-short-border-line
+-http://stackoverflow.com/questions/6669846/css-input-field-text-color-of-inputted-text
 
 

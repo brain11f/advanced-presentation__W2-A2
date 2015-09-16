@@ -27,7 +27,7 @@
 	margin-top: 3em;
 	font-size: 1.3em;
 	line-height: 1.75em;
-	margin-bottom: 6em;
+	margin-bottom: 3em;
 	width: 60em;
 
 }
@@ -45,6 +45,17 @@
 	display: inline;
 	font-family: Arial;
 }
+.contact-company-box:focus, .contact-email-box:focus, .contact-message-box:focus {
+	color: #FFFFFF;
+}
+
+.contact-company-box, .contact-email-box, .contact-message-box {
+	color: #FFFFFF;
+}
+
+
+
+
 .google-maps-figure {
 	position: absolute;
 	z-index: 3;
