@@ -35,7 +35,7 @@
 	@include icon-border-radius(50em);
 }
 //team section 
-%team-social-media-spacing {
+@mixin team-social-media-spacing {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -45,7 +45,7 @@
 	position: relative;
 }
 
-%team-icon-spacing {
+@mixin team-icon-spacing {
 	padding-right: .25em;
 	padding-left: .25em;
 	width: 1.75em;

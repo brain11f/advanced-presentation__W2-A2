@@ -1,14 +1,14 @@
 //team section
 
 .team-social-media-icon {
-	@include %team-social-media-spacing;
+	@include team-social-media-spacing;
 }
 .team-social-media-icon li {
 	display: inline;
 	float: left;
 }
 .team-facebook-icon, .team-twitter-icon, .team-dribble-icon, .team-linkedIn-icon, .team-googlePlus-icon {
-	@include %team-icon-spacing;
+	@include team-icon-spacing;
 }
 .team-facebook-icon {
 	background-color: $dark-blue;

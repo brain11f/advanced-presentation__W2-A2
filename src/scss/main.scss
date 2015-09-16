@@ -8,11 +8,23 @@
 @import "forms";
 @import "buttons";
 @import "headers";
-@import "document-header";
-@import "document-welcome";
-@import "document-services";
-@import "document-portfolio";
+@import "team_section";
+@import "document_header";
+@import "document_welcome";
+@import "document_services";
+@import "document_portfolio";
 @import "document_about";
 @import "document_clients";
 @import "document_contacts";
 @import "document_team";
+
+$background-color: #FFFFFF; $service-heading: 700; $heading-margin: 5%; $heading-width: 100%;
+
+@mixin headings($width) {
+
+	width: $width;	}
+
+
+.block {
+	@include headings($width: 100px);
+}
