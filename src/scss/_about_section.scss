@@ -1,4 +1,4 @@
-//About-Skills
+//about & skills sections
 
 .about-skills {
 	background-color: #252629;
@@ -9,7 +9,7 @@
 	justify-content: center;
 	align-content: flex-start;
 	align-items: center;
-	padding-left: 5%;
+	
 }
 .about-header {
 	width: 100%;
@@ -40,13 +40,24 @@ progress[value] {
 	width: 100%;
 	height: 1.4em;
 }
-//Foreground Colors//
+//Foreground Colors  
 //IE10 
+
 progress {
-	color: $orange;
+	color: #fd6632;
 }
 
-//firefox,crome,polyfill
-progress::-moz-progress-bar, progress::-webkit-progress-value, progress[aria-valuenow]:before {
-	background: $orange;
+
+progress::-moz-progress-bar {
+	background: #fd6632;
+}
+
+
+progress::-webkit-progress-value {
+	background: #fd6632;
+}
+
+
+progress[aria-valuenow]:before {
+	background: #fd6632;
 }

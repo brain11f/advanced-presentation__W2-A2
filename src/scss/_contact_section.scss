@@ -1,16 +1,12 @@
-
-
 //contact
 
-.contact {
-	background-color: $orange;
-	padding-top: 1%;
+%contact-bkcolor-opacity {
+	background-color: $contact-bkColor; 
+	opacity: $contact-opacity;
 }
-
-.contact-p {
-	color: $white;
+.form-box, .contact-message-box, .google-maps-figure {
+	@extend %contact-bkcolor-opacity; 
 }
-
 .contact {
 	display: flex;
 	flex-direction: row;
@@ -18,6 +14,12 @@
 	justify-content: center;
 	align-content: flex-start;
 	align-items: center;
+	padding-top: 1%;
+	background-color: $orange;
+
+}
+.contact-p, .google-maps-phoneNumber, .google-maps-emailAddress, .google-maps-pinAddress {
+	@extend %contact-setColor; 
 }
 .contact-p {
 	text-align: center;
@@ -27,6 +29,7 @@
 	line-height: 1.75em;
 	margin-bottom: 6em;
 	width: 60em;
+
 }
 .contact-form {
 	padding: 1em;
@@ -34,22 +37,15 @@
 .form-box {
 	width: 28em;
 	display: block;
-	height: 3em;
-	background-color: #252629;
-	opacity: .8;
+	height: 3em; 
 }
 .contact-message-box {
 	width: 28em;
 	height: 15em;
 	display: inline;
-	background-color: #252629;
-	opacity: .8;
 	font-family: Arial;
 }
-
 .google-maps-figure {
-	background-color: #252629;
-	opacity: .8;
 	position: absolute;
 	z-index: 3;
 	width: 23.8em;
@@ -59,23 +55,33 @@
 .google-maps-phoneNumber {
 	margin-right: 2em;
 }
-.google-maps-phoneNumber,
-.google-maps-emailAddress,
-.google-maps-pinAddress {
-	color: #FFFFFF;
-}
-
-.google-maps-image {
-	max-width: 100%;
-}
 .google-maps-section {
 	width: 30em;
 	padding-bottom: 6em;
 }
-
-//google maps section
-.google-maps-icons {
-	color: $white;
-	width: 7%;
-	display: flex;
+//footer
+.bottom-page-footer {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 1em;
 }
+
+.footer {
+	font-family: $primary-regular;
+}
+.theme-by {
+	color: $dark-gray;
+	opacity: .8;
+} 
+.pierre-borodin {
+	color: $orange;
+}
+.copyright {
+	color: $black;
+}
+
+.footer-nav ul {
+	margin-left: 44%;
+	text-align: center;
+}
+

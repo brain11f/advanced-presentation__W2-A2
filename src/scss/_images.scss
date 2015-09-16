@@ -1,0 +1,11 @@
+//images 
+
+$high-percent: 100%;
+%image-size {
+	max-width: $high-percent;
+}
+
+//google maps
+.google-maps-image {
+	@extend %image-size;
+}
