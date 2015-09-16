@@ -87,5 +87,38 @@ CSS tricks
 -Contact form code from James Georde at http://www.sitepoint.com/style-web-forms-css/
 - html placeholders, Placeholder text in an input field with CSS only (no JavaScript) by david jones
 
+good morning all! Did some grading last night and am feeling pretty good over all. You all are trying new things and it's showing! That's awesome.
+
+The Git commits are WAY BETTER! Well done.
+
+So. HTML and semantics: covered.
+
+CSS; naming, initial organization, and core conventions: covered.
+
+What's next? Time to turn things up. Going into this week we are going to start using power tools. As you get into the pro Dev world, one things that has become a standard is the use of Sass. We will talk about the role Sass plays and touch on other semi-popular solutions for large scale CSS management.
+
+Next thing we will cover this week is core jQuery. Again, let's discuss its role and alternate semi-popular solutions.
+
+Along the way we will continue to discuss more soft skills around Git and get you used to using Gulp as part of a project build system.
+
+This weeks assignment is going to be pretty 'simple'. We are looking for two things;
+
+1) refactor all your CSS to Sass
+2) introduce dynamic jQuery elements to the app
+
+The scope of this is for you to stick with your previous pair partner, make the improvements suggested in your last assignment, complete what you didn't in the last assignment and add the new tech/processes/development solutions we are covering.
+
+Simply make a NEW feature branch from last week's project and this will be your new MASTER. Follow all the same practices you did last week, branching/merging/comments, but NEVER COMMIT TO MASTER.
+
+Name this new branch: `w3-a3__sass-and-jquery`
+
+Again, as soon as you start, create the PR with '(wip)' in the title and submit to that as you go along.
+
+New Git things I'm looking for is a GOOD summary statement in the PR. Description of the feature updates and screen shots.
+
+Also, this project MUST BE RESPONSIVE! If you didn't finish that last week, it must be part of this project.
+
+Welcome to week 3!
+
 
 

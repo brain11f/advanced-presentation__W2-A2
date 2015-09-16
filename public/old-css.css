@@ -8,6 +8,7 @@
 		height: 2.5em;
 		fill: currentColor;
 	}*/
+/*
 	.drop-down-menu {
 		position: fixed;
 		display: inline-block;
@@ -38,6 +39,7 @@
 	.drop-down-menu input:checked + label {
 		color: white;
 	}
+*/
 /*
 	.drop-down-menu input:not(:checked) ~ ul {
 		visibility: visible;
@@ -119,6 +121,7 @@
 */
 /*Welcome page*/
 
+/*
 .welcome {
 	background-image: url("./assets/header-background-image.jpg");
 	background-size: cover;
@@ -137,7 +140,8 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	
+}
+*/
 	/*
 .circle-welcome-icon {
 	margin: 1em;
@@ -151,12 +155,14 @@
 	margin: 0;
 }
 */
+/*
 .welcome-section h1 {
 	font-size: 1em;
 	margin: 0;
 }
+*/
 /*Services */
-
+/*
 .services {
 	display: flex;
 	flex-direction: row;
@@ -224,6 +230,7 @@
 		width: 30%;
 	}
 }
+*/
 /*
 .circle-services-icon {
 	display: inline-block;
@@ -235,6 +242,7 @@
 }*/
 /*pricing*/
 
+/*
 .price {
 	display: flex;
 	flex-direction: row;
@@ -264,6 +272,7 @@
 	margin-bottom: 1%;
 	margin-top: 1%;
 }
+*/
 /*
 .price-li > button {
 	padding: 1%;
@@ -280,6 +289,7 @@
 	border-right-width: 4.3em;
 }
 */
+/*
 .price-ul {
 	width: 80em;
 	text-align: center;
@@ -298,6 +308,7 @@
 	padding-left: 2em;
 	padding-right: 2em;
 }
+*/
 /*Portfolio*/
 
 .carousel {
