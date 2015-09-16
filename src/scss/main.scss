@@ -1,30 +1,17 @@
-
 //import all the sass files
 @import "reset";
 @import "config";
 @import "typography";
 @import "headers";
+@import "images";
 @import "icons";
 @import "forms";
 @import "buttons";
-@import "headers";
+@import "about_section";
+@import "client_section";
+@import "contact_section";
 @import "team_section";
-@import "document_header";
-@import "document_welcome";
-@import "document_services";
-@import "document_portfolio";
-@import "document_about";
-@import "document_clients";
-@import "document_contacts";
-@import "document_team";
-
-$background-color: #FFFFFF; $service-heading: 700; $heading-margin: 5%; $heading-width: 100%;
-
-@mixin headings($width) {
-
-	width: $width;	}
-
-
-.block {
-	@include headings($width: 100px);
-}
+@import "header_section";
+@import "welcome_section";
+@import "services_section";
+@import "portfolio_section";
