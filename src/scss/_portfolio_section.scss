@@ -1,12 +1,7 @@
 /*Portfolio*/
 
 .carousel {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
+	@include flexbox(flex, column, wrap, center, center, center);
 }
 .carousel img {
 	height: 17.8em;
@@ -55,12 +50,7 @@
 	transition: all .6s;
 }
 .portfolio-article {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start;
-	align-items: center;
+	@include flexbox(flex, row, wrap, center, flex-start, center);
 }
 .portfolio-article article {
 	padding-left: .5em;
