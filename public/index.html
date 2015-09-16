@@ -223,7 +223,7 @@
         <div class="arrow portfolio-carousel-arrow"></div>
     </article>
     <article class="about-skills">
-        <h1 class="line white-line about-header">ABOUT</h1>
+        <h1 class="line white-line">ABOUT</h1>
         <p class="about-skills-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <p class="about-skills-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <section class="skills">
@@ -240,7 +240,7 @@
             <progress max="100" value="95"></progress>
         </section>
         <small>Do you want be one of Avengers? Join us!</small>
-        <button>CONTACT US</button>
+        <button><a class="contact-us-button" href="#contact-us" style="text-decoration:none;">CONTACT US</a></button>
         <div class="arrow about-skills-arrow"></div>
     </article>
     <article class="team-clients">
@@ -360,10 +360,12 @@
 				<h1 class="line white-line contact-header">CONTACT</h1>
 				<p class="contact-p">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
 				</p>
+                <!-- the destination point when clicking the contact us button -->
+                <a name="contact-us"></a>
 				<form class="contact-form">
-					<input class="form-box contact-company-box" type="text" name="companyName" placeholder="Company name"/></br>
-					<input class="form-box contact-email-box" type="text" placeholder="Your@mail.com"/></br>
-						<textarea class="contact-message-box" type="text" name="contactMessage" placeholder="Message..."></textarea></br>
+					<input class="form-box contact-company-box" type="text" name="name" placeholder="Company name"/></br>
+					<input class="form-box contact-email-box" name="email" type="text" placeholder="Your@mail.com"/></br>
+						<textarea class="contact-message-box" type="text" name="message" placeholder="Message..."></textarea></br>
 						<input class="contact-form-submit-button" type="button" value="Submit Message"/>
 				</form>
 				<section class="google-maps-section">
@@ -399,7 +401,7 @@
 			</nav>		
 		</section>	
 	</footer>
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="./js/main.js"></script>
 	</body>
 </html>

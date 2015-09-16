@@ -13,6 +13,8 @@
 	z-index: 1;
 	overflow: hidden;
 	text-align: center;
+	width: 35em;
+	margin: 0 auto;
 }
 .white-line:before, .white-line:after {
 	background-color: $white;
