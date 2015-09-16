@@ -1,33 +1,14 @@
+//team section
 
-//team section 
-%team-social-media-spacing {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	padding-bottom: .75em;
-	margin-left: 8%;
-	display: flex;
-	position: relative;
-}
-
-%team-icon-spacing {
-	padding-right: .25em;
-	padding-left: .25em;
-	width: 1.75em;
-	height: 1.75em;
-	margin-right: .35em;
-	margin-bottom: .5em;
-	margin-top: .5em;
-}
 .team-social-media-icon {
-	@extend %team-social-media-spacing;
+	@include team-social-media-spacing;
 }
 .team-social-media-icon li {
 	display: inline;
 	float: left;
 }
 .team-facebook-icon, .team-twitter-icon, .team-dribble-icon, .team-linkedIn-icon, .team-googlePlus-icon {
-	@extend %team-icon-spacing;
+	@include team-icon-spacing;
 }
 .team-facebook-icon {
 	background-color: $dark-blue;
@@ -43,48 +24,4 @@
 }
 .team-googlePlus-icon {
 	background-color: $old-yellow;
-}
-.team {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.team-section {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start;
-	align-items: center;
-}
-.team-p {
-	font-size: 1em;
-	width: 20em;
-	display: inline-block;
-}
-.circle-crop {
-	position: relative;
-	overflow: hidden;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-}
-.team-name {
-	font-size: 2em;
-	margin-bottom: 0;
-}
-.team-figcaption {
-	width: 17em;
-}
-.social-media-figure {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-content: flex-start;
-	align-items: center;
-	width: 17em;
-	margin: 1em;
 }
