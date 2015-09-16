@@ -1,5 +1,6 @@
 /*menu navigation*/
 
+/*
 @media (max-width: 700px) {
 	/*.menu-icon {
 		display: inline-block;
@@ -17,13 +18,13 @@
 		display: block;
 		width: 50em;
 		height: 1.8em;
-		/*background: #d8d8d8;*/
+		background: #d8d8d8;
 		padding: 15px 20px;
 	}
 	.drop-down-menu label:hover,
 	.drop-down-menu ul li:hover {
 		background-color: #1d1c21;
-		/*color: white;*/
+		color: white;
 		cursor: pointer;
 	}
 	.drop-down-menu input {
@@ -35,9 +36,9 @@
 		opacity: 0;
 	}
 	.drop-down-menu input:checked + label {
-		/*background-color: #1d1c21;*/
 		color: white;
 	}
+/*
 	.drop-down-menu input:not(:checked) ~ ul {
 		visibility: visible;
 		opacity: 1;
@@ -49,6 +50,8 @@
 		margin: 0;
 		padding: 0;
 	}
+*/
+/*
 	.animate {
 		-webkit-transition: all .3s;
 		-moz-transition: all .3s;
@@ -57,15 +60,14 @@
 		transition: all .3s;
 		backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
-		/* Chrome and Safari */
 
 		-moz-backface-visibility: hidden;
-		/* Firefox */
 
 		-ms-backface-visibility: hidden;
-		/* Internet Explorer */
 	}
 }
+*/
+/*
 @media (min-width: 700px) {
 	.drop-down-menu > input,
 	label {
@@ -81,6 +83,7 @@
 		padding-right: 2em;
 	}
 }
+*/
 /*lines next to titles*/
 /*
 .line {
@@ -432,7 +435,6 @@ progress::-webkit-progress-value {
 progress[aria-valuenow]:before {
 	background: #fd6632;
 }
-*/
 /*google maps*/
 /*
 .google-maps {
