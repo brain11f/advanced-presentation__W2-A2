@@ -1,5 +1,5 @@
 .welcome {
-	background-image: url("./assets/header-background-image.jpg");
+	background-image: url("../../public/assets/header-background-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 6em;
@@ -9,12 +9,7 @@
 	padding-bottom: 3.5em;
 	padding-left: 1em;
 	padding-right: 1em;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
+	@include flexbox( flex, column, wrap, center, center, center );
 	h1 {
 		font-size: 1em;
 		margin: 0;

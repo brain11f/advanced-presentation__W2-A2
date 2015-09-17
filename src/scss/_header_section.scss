@@ -44,20 +44,8 @@
 		padding: 0;
 	}
 	.animate {
-		-webkit-transition: all .3s;
-		-moz-transition: all .3s;
-		-ms-transition: all .3s;
-		-ms-transition: all .3s;
-		transition: all .3s;
-		backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		/* Chrome and Safari */
-
-		-moz-backface-visibility: hidden;
-		/* Firefox */
-
-		-ms-backface-visibility: hidden;
-		/* Internet Explorer */
+		@include transition( all .3s );
+		@include visibility( hidden );
 	}
 }
 @media (min-width: 800px) {
@@ -71,6 +59,11 @@
 			display: inline;
 			padding-left: 2em;
 			padding-right: 2em;
+			opacity: .6;
+		}
+		li:hover {
+			@include hover_state( null, $black );
+			@include transition( all .3s );
 		}
 	}
 }

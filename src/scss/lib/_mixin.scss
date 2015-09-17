@@ -6,3 +6,28 @@
 	align-content: $alignContent;
 	align-items: $alignItems;
 }
+
+@mixin transition($value) {
+	-webkit-transition: $value;
+	-moz-transition: $value;
+	-ms-transition: $value;
+	-ms-transition: $value;
+	transition: $value;
+}
+
+@mixin visibility($value) {
+	backface-visibility: $value;
+	-webkit-backface-visibility: $value;
+	/* Chrome and Safari */
+	-moz-backface-visibility: $value;
+	/* Firefox */
+	-ms-backface-visibility: $value;
+	/* Internet Explorer */
+}
+
+@mixin hover_state( $backgroundcolor, $color ) {
+	background-color: $backgroundcolor;
+	color: $color;
+	opacity: 1.0;
+	cursor: pointer;
+}

@@ -3,13 +3,7 @@
 .about-skills {
 	background-color: #252629;
 	color: white;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start;
-	align-items: center;
-	
+	@include flexbox( flex, row, wrap, center, flex-start, center );
 }
 .about-header {
 	width: 100%;

@@ -8,12 +8,7 @@
 	@extend %contact-bkcolor-opacity; 
 }
 .contact {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start;
-	align-items: center;
+	@include flexbox( flex, row, wrap, center, flex-start, center );
 	padding-top: 1%;
 	background-color: $orange;
 

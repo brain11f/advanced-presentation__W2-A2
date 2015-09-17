@@ -94,5 +94,12 @@
 			margin-bottom: 1%;
 			margin-top: 1%;
 		}
+		button {
+			@extend %price-button;
+		}
+		button:hover {
+			@include hover_state( null, $black );
+			@include transition( all .3s );
+		}
 	}
 }
