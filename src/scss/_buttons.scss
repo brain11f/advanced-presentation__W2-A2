@@ -44,11 +44,24 @@
 	}
 }
 //client button
-.right-button {
+
+.client-button {
 	
+	margin: 0 auto;
+	position: relative;
+	width: 30em;
+	height: 2em;
+	bottom: 8em;
+
+
 }
 .left-button {
 	
+
+}
+
+.right-button {
+
 }
 //contact form button
 .contact-form-submit-button {
@@ -60,3 +73,7 @@
 	margin-bottom: 2em;
 	margin-left: 14em;	
 } 
+
+.client-circle-click {
+
+}
