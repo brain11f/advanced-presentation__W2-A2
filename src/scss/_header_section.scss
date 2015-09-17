@@ -59,10 +59,11 @@
 			display: inline;
 			padding-left: 2em;
 			padding-right: 2em;
+			opacity: .6;
 		}
 		li:hover {
-			background-color: $black;
-			color: $white;
+			@include hover_state( null, $black );
+			@include transition( all .3s );
 		}
 	}
 }

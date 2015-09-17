@@ -97,5 +97,9 @@
 		button {
 			@extend %price-button;
 		}
+		button:hover {
+			@include hover_state( null, $black );
+			@include transition( all .3s );
+		}
 	}
 }

@@ -24,3 +24,10 @@
 	-ms-backface-visibility: $value;
 	/* Internet Explorer */
 }
+
+@mixin hover_state( $backgroundcolor, $color ) {
+	background-color: $backgroundcolor;
+	color: $color;
+	opacity: 1.0;
+	cursor: pointer;
+}

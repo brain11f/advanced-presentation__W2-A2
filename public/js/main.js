@@ -19,53 +19,53 @@ $(function() {
 });
 	});
 
-});
-
 /*menu nav*/
-$('#home').on('click', function() {
-	$.smoothScroll({
-		scrollElement: $('body'),
-		scrollTarget: '.welcome'
+	$('#home').on('click', function() {
+		$.smoothScroll({
+			scrollElement: $('body'),
+			scrollTarget: '.welcome'
+		});
+		return false;
 	});
-	return false;
-});
 
-$('#services').on('click', function() {
-	$.smoothScroll({
-		scrollElement: $('body'),
-		scrollTarget: '.services'
+	$('#services').on('click', function() {
+		$.smoothScroll({
+			scrollElement: $('body'),
+			scrollTarget: '.services'
+		});
+		return false;
 	});
-	return false;
-});
 
-$('#portfolio').on('click', function() {
-	$.smoothScroll({
-		scrollElement: $('body'),
-		scrollTarget: '.portfolio-carousel'
+	$('#portfolio').on('click', function() {
+		$.smoothScroll({
+			scrollElement: $('body'),
+			scrollTarget: '.portfolio-carousel'
+		});
+		return false;
 	});
-	return false;
-});
 
-$('#about').on('click', function() {
-	$.smoothScroll({
-		scrollElement: $('body'),
-		scrollTarget: '.about-skills'
+	$('#about').on('click', function() {
+		$.smoothScroll({
+			scrollElement: $('body'),
+			scrollTarget: '.about-skills'
+		});
+		return false;
 	});
-	return false;
-});
 
-$('#team').on('click', function() {
-	$.smoothScroll({
-		scrollElement: $('body'),
-		scrollTarget: '.team-clients'
+	$('#team').on('click', function() {
+		$.smoothScroll({
+			scrollElement: $('body'),
+			scrollTarget: '.team-clients'
+		});
+		return false;
 	});
-	return false;
-});
 
-$('#contact').on('click', function() {
-	$.smoothScroll({
-		scrollElement: $('body'),
-		scrollTarget: '.contact'
+	$('#contact').on('click', function() {
+		$.smoothScroll({
+			scrollElement: $('body'),
+			scrollTarget: '.contact'
+		});
+		return false;
 	});
-	return false;
+	
 });

@@ -29,6 +29,11 @@
 	> li {
 		display: inline;
 		padding: 1em;
+		opacity: .6;
+	}
+	> li:hover {
+		@include hover_state( $orange, $white );
+		@include transition( all .3s );
 	}
 }
 @media (min-width: 1000px) {
@@ -54,8 +59,6 @@
 	}
 	img:hover {
 		opacity: .5;
-		-moz-transition: all .6s;
-		-webkit-transition: all .6s;
-		transition: all .6s;
+		@include transition( all .6s );
 	}
 } 
