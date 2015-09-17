@@ -311,6 +311,7 @@
 */
 /*Portfolio*/
 
+/*
 .carousel {
 	display: flex;
 	flex-direction: column;
@@ -333,7 +334,6 @@
 	align-items: flex-start;
 	list-style: circle;
 	font-size: 2em;
-	display: inline-grid;
 }
 .carousel-selected {
 	color: #fd6632;
@@ -382,6 +382,7 @@
 .portfolio-article img {
 	height: 12em;
 }
+*/
 
 /*About-Skills*/
 /*

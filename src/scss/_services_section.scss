@@ -94,5 +94,8 @@
 			margin-bottom: 1%;
 			margin-top: 1%;
 		}
+		button {
+			@extend %price-button;
+		}
 	}
 }

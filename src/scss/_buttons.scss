@@ -30,18 +30,15 @@
 	margin-left: 14em;	
 }
 
-.price-li {
-	button {
-		@extend %button;
-		width: 12.7em;
-		background: $orange;
-		color: $white;
-		border-top: 1em solid $dark-orange;
-		border-bottom: 1em solid $dark-orange;
-		border-left: 2em solid $dark-orange;
-		border-right: 2em solid $dark-orange;
-		margin: 1%;	
-	}
+%price-button {
+	width: 100%;
+	background: $orange;
+	color: $white;
+	border-top: 1em solid $dark-orange;
+	border-bottom: 1em solid $dark-orange;
+	border-left: 2em solid $dark-orange;
+	border-right: 2em solid $dark-orange;
+	margin: 1%;	
 }
 //client button
 .right-button {
