@@ -94,6 +94,7 @@ $(function() {
     	this.reset();
 		});
 	});
+//clients
 	var current = 0;
 	$(".circle-buttons").click(function() { 
 		if (current === 0) {
@@ -107,4 +108,26 @@ $(function() {
 			current = 0;	
 		}
 	});
+	//portfolio-slider
+	$(".slider-one").click(function() { 
+		$("#slider-one").css("z-index", "5");
+		$("#slider-two, #slider-three, #slider-four, #slider-five").css("z-index","1");
+	});
+	$(".slider-two").click(function() { 
+		$("#slider-two").css("z-index", "5");
+		$("#slider-one, #slider-three, #slider-four, #slider-five").css("z-index","1");
+	});
+	$(".slider-three").click(function() { 
+		$("#slider-three").css("z-index", "5");
+		$("#slider-two, #slider-one, #slider-four, #slider-five").css("z-index","1");
+	});
+	$(".slider-four").click(function() { 
+		$("#slider-four").css("z-index", "5");
+		$("#slider-two, #slider-three, #slider-one, #slider-five").css("z-index","1");
+	});
+	$(".slider-five").click(function() { 
+		$("#slider-five").css("z-index", "5");
+		$("#slider-two, #slider-three, #slider-four, #slider-one").css("z-index","1");
+	});
+	
 });
