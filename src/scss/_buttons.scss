@@ -12,14 +12,11 @@
 	text-decoration: none;
 	padding: 6px 24px;
 	}
-
 .contact-us-button {
 	text-decoration: none;
 	color: $white;
-
 }	
 //pricing table button
-
 .contact-form-submit-button {
 	@extend %button;
 	background-color: $white;
@@ -29,7 +26,6 @@
 	margin-bottom: 2em;
 	margin-left: 14em;	
 }
-
 %price-button {
 	width: 100%;
 	background: $orange;
@@ -41,24 +37,12 @@
 	margin: 1%;	
 }
 //client button
-
 .client-button {
-	
 	margin: 0 auto;
 	position: relative;
 	width: 30em;
 	height: 2em;
 	bottom: 8em;
-
-
-}
-.left-button {
-	
-
-}
-
-.right-button {
-
 }
 //contact form button
 .contact-form-submit-button {
@@ -70,7 +54,3 @@
 	margin-bottom: 2em;
 	margin-left: 14em;	
 } 
-
-.client-circle-click {
-
-}
