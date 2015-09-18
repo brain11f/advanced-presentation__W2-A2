@@ -1,23 +1,5 @@
-/*Contact us link*/
+
 $(function() {
-	$(".contact-us-button").mouseenter(function() {
-		$(this).css("color", "#973d1e");
-		$(".contact-us-button").mouseleave(function() {
-			$(this).css("color", "white");
-		});
-	});
-	$(".contact-form-submit-button").mouseenter(function() {
-		$(this).css("color", "#973d1e");
-		$(".contact-form-submit-button").mouseleave(function() {
-			$(this).css("color", "#fd6632");
-		});
-	});
-	$(".contact-form-submit-button").click(function () {
-		alert("Thanks for your submission!");
-		$( '.contact-form' ).each(function(){
-    	this.reset();
-		});
-	});
 
 /*menu nav*/
 	$('#home').on('click', function() {
@@ -68,4 +50,36 @@ $(function() {
 		return false;
 	});
 
+	//contact us 
+	$(".contact-us-button").mouseenter(function() {
+		$(this).css("color", "#973d1e");
+		$(".contact-us-button").mouseleave(function() {
+			$(this).css("color", "white");
+		});
+	});
+	$(".contact-form-submit-button").mouseenter(function() {
+		$(this).css("color", "#973d1e");
+		$(".contact-form-submit-button").mouseleave(function() {
+			$(this).css("color", "#fd6632");
+		});
+	});
+	$(".contact-form-submit-button").click(function () {
+		alert("Thanks for your submission!");
+		$( '.contact-form' ).each(function(){
+    	this.reset();
+		});
+	});
+	var current = 0;
+	$(".circle-buttons").click(function() { 
+		if (current === 0) {
+			$(".client-reviews").hide();
+    		$(".new-review").show();
+    		current = 1;
+		}
+		else {
+			$(".new-review").hide(); 
+			$(".client-reviews").show();
+			current = 0;	
+		}
+	});
 });
