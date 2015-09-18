@@ -1,0 +1,48 @@
+//styling fonts goes here
+$primary-regular: #{Arial};
+%primary-bold {
+	font-family: $primary-regular bold;
+}
+
+//font size
+$heading-1: 2em;
+$heading-2: 1em;
+$button-font-size: .87em;
+$bullets-size: 2em;
+
+//font weight
+$light: 100;
+$regular:400;
+$bold: 700;
+
+//colors
+$light-gray: #d8d8d8;
+$white: #ffffff;
+$dark-gray: #1d1c21;
+$black: #000000;
+$orange: #fd6632;
+$dark-orange: #be4c27;
+$brown: #7e3319;
+
+
+//background-colors
+
+
+//icon colors
+$dark-blue: #305fc6;
+$light-blue: #32bdff;
+$dark-pink: #dd2667;
+$medium-blue: #2ca1eb;
+$old-yellow: #fabc00;
+
+//opacity
+$high-opacity: .8;
+
+//contact
+$contact-color: $white;
+%contact-setColor {
+	color: $contact-color;
+} 
+$contact-bkColor: $dark-gray;
+$contact-opacity: $high-opacity;
+

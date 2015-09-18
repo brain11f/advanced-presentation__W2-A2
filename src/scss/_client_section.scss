@@ -1,0 +1,47 @@
+//client section
+
+.client {
+	margin: 0 auto;	
+}
+.client-p {
+	text-align: center;
+	width: 20em;
+	font-size: 1em;
+	font-family: $primary-regular;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+.client-picture {
+	margin-top: 1.5em;
+	margin: 0 auto;
+	display: block;
+}
+.client-name {
+	margin: 0 auto;
+	color: $orange;
+}
+.client-span {
+	display: block;
+	text-align: center;
+
+}
+
+.client-reviews {
+	width: 30em;
+	margin: 0 auto;
+}
+
+.new-review {
+	width: 30em;
+	height: 15em;
+	margin: 0 auto;
+}
+
+.new-review-p {
+	margin: 0 auto;
+	display: block;
+	margin-top: 1em;
+	width: 10em;
+	font-size: 2em;
+	color: $orange;
+}

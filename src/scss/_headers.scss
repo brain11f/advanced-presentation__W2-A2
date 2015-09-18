@@ -1,0 +1,39 @@
+//headers go here
+
+.contact-header {
+	color: $white;
+	font-weight: $bold;
+	margin-top: 5%;
+	width: 80%;
+}
+.line {
+	margin-top: 2em;
+	position: relative;
+	font-size: 30px;
+	z-index: 1;
+	overflow: hidden;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.white-line:before, .white-line:after {
+	background-color: $white;
+	color: $white;
+}
+.black-line:before, .black-line:after {
+	background-color: $black;
+	color: $black;
+}
+.line:before, .line:after {
+	position: absolute;
+	top: 51%;
+	width: 50%;
+	height: 1px;
+	content: '\a0';
+}
+.line:before {
+	margin-left: -50%;
+	text-align: right;
+}
+
+

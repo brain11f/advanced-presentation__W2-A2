@@ -1,0 +1,105 @@
+/*Services */
+.services-price {
+	background-color: $orange;
+}
+.services {
+	@include flexbox(flex, row, wrap, center, space-between, flex-start);
+	> h1 {
+		text-align: center;
+		margin: 0;
+		padding-top: 6%;
+		width: 100%;
+		height: 3em;
+	}
+}
+.services-p-one {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 10em;
+}
+.services-p-two {
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+	width: 20em;
+	height: 10em;
+}
+.services-p-three {
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+	width: 20em;
+	height: 10em;
+}
+.services-list {
+	text-align: center;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	@include flexbox(flex, row, wrap, center, flex-start, center);
+	li {
+		padding: 1em;
+	}
+}
+@media (max-width: 600px) {
+	.services-list li {
+		width: 95%;
+	}
+}
+@media (min-width: 601px) {
+	.services-list li {
+		width: 30%;
+	}
+}
+
+/*pricing*/
+
+.price {
+	@include flexbox(flex, row, wrap, center, center, flex-start);
+	> h1 {
+		width: 100%;
+		text-align: center;
+	}
+}
+.price-ul {
+	width: 80em;
+	text-align: center;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	list-style: none;
+	@include flexbox(flex, row, wrap, center, flex-start, center);
+	> li {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+.price-li {
+	width: 11em;
+	margin-bottom: 5%;
+	> {
+		h1 {
+			background-color: $brown;
+			color: $white;
+			font-size: 1em;
+			padding: 3%;
+			margin-bottom: 0;
+		}
+		p {
+			background-color: $white;
+			padding: 2%;
+			margin-bottom: 1%;
+			margin-top: 1%;
+		}
+		button {
+			@extend %price-button;
+		}
+		button:hover {
+			@include hover_state( null, $black );
+			@include transition( all .3s );
+		}
+	}
+}
